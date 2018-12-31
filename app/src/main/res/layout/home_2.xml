@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft3.zing.Home_2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="welcome back, John"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="28dp"
+                        android:textColor="@color/welcome"
+                        android:textSize="18dp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textColor="#E67a7a7a"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="28dp"
+                        android:fontFamily="@font/roboto_light"
+                        android:text="it’s a bright &amp; sunny day in Dubai, 28°C"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="28dp"
+                        android:fontFamily="@font/roboto_regular"
+                        android:text="what are you\nupto, today?"
+                        android:textColor="@color/welcome"
+                        android:textSize="32sp" />
+
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clipToPadding="false"
+                        android:layout_marginTop="50dp"
+                        android:scrollbars="none">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="26dp"
+                            android:paddingRight="28dp"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:layout_width="220dp"
+                                    android:layout_height="180dp"
+                                    android:layout_marginRight="20dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/image4"
+                                    app:riv_corner_radius="8dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="50dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="#adventure"
+                                    android:textColor="@color/white"
+                                    android:textSize="16.5sp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/roboto_light"
+                                    android:text="1,320 people this week"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp" />
+
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <com.makeramen.roundedimageview.RoundedImageView
+                                    android:layout_width="220dp"
+                                    android:layout_height="180dp"
+                                    android:scaleType="fitXY"
+                                    android:src="@drawable/image6"
+                                    app:riv_corner_radius="8dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="50dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/roboto_regular"
+                                    android:text="#adventure"
+                                    android:textColor="@color/white"
+                                    android:textSize="16.5sp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="bottom"
+                                    android:layout_marginBottom="15dp"
+                                    android:layout_marginLeft="15dp"
+                                    android:fontFamily="@font/roboto_light"
+                                    android:text="1,320 people this week"
+                                    android:textColor="@color/white"
+                                    android:textSize="15sp" />
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                    </HorizontalScrollView>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="26dp"
+                        android:layout_marginRight="28dp"
+                        android:layout_marginTop="40dp"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:fontFamily="@font/poppins_medium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/welcome"
+                            android:textSize="18sp"
+                            android:text="stuff you can do" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/ic_keyboard_arrow_right_black_24dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="70dp"
+                    android:layout_marginTop="18dp"
+                    android:scrollbars="none">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="26dp"
+                        android:paddingRight="28dp"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingRight="20dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="100dp"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image7"
+                                app:riv_corner_radius="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_light"
+                                android:text="#tattoo"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="100dp"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image8"
+                                app:riv_corner_radius="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_light"
+                                android:text="#bunjee"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="20dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="100dp"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/girl"
+                                app:riv_corner_radius="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_light"
+                                android:text="#dance"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+                        </FrameLayout>
+
+                        <FrameLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:layout_width="100dp"
+                                android:layout_height="80dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/image9"
+                                app:riv_corner_radius="8dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:fontFamily="@font/roboto_light"
+                                android:text="#dance"
+                                android:textColor="@color/white"
+                                android:textSize="15sp" />
+
+
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_behavior="iconsOnly"/>
+
+</RelativeLayout>

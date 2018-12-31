@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.wolfsoft3.zing.HashTag">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+    <include layout="@layout/toolbar"/>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollIndicators="right"
+            app:tabIndicatorColor="#0960bd"
+            app:tabMode="scrollable"
+            android:layout_marginLeft="20dp"
+            app:tabSelectedTextColor="#80323643"
+            app:tabTextAppearance="@style/MyMenuTextAppearance1"
+            app:tabTextColor="#80323643" />
+
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="65dp"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_behavior="iconsOnly"/>
+
+</RelativeLayout>

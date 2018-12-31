@@ -1,0 +1,31 @@
+<tabs>
+    <tab
+        icon="@drawable/ic_home"
+        iconOnly="true"
+        inActiveColor="#323643"
+        activeColor="#0960bd"/>
+
+    <tab
+        icon="@drawable/ic_location_1"
+        iconOnly="true"
+        inActiveColor="#323643"
+        activeColor="#0960bd"/>
+
+    <tab
+        icon="@drawable/ic_hashtags"
+        iconOnly="true"
+        inActiveColor="#323643"
+        activeColor="#0960bd"/>
+
+    <tab
+        icon="@drawable/ic_activity"
+        iconOnly="true"
+        inActiveColor="#323643"
+        activeColor="#0960bd"/>
+
+    <tab
+        icon="@drawable/ic_user"
+        iconOnly="true"
+        inActiveColor="#323643"
+        activeColor="#0960bd"/>
+</tabs>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Zing</string>
+    <string name="hello_world"><font fgcolor="#7a7a7a">need an account?</font>
+    <font fgcolor="#0960bd">signup</font></string>
+
+
+    <string name="login"><font fgcolor="#7a7a7a">already onboard?</font>
+    <font fgcolor="#0960bd">login</font></string>
+
+
+</resources>
